@@ -133,7 +133,24 @@ captured showing rapid port connection attempts from `192.168.1.105`
 
 ---
 
-## MITRE ATT&CK Mapping
+## Evidence — Screenshots
+
+### Wazuh Dashboard — Agent Active
+![Wazuh Agent Active](wazuh_screensho.png)
+
+### Threat Hunting — DLL Hijack Detections
+![DLL Hijack Detection](wazuh_events_port_scan.png)
+
+### Brute Force Attack — Multiple Logon Failures Detected
+![Brute Force Detection](wazuh_logon_failed_dasborad.png)
+
+### Event Detail — Windows Event ID 4625 (AUDIT_FAILURE)
+![Event 4625 Detail](wazuh_single_event_detail_failed_logon.png)
+
+### Kali Linux — Nmap Reconnaissance Output
+![Nmap Scan](kali_nmap_scan.png)
+
+---## MITRE ATT&CK Mapping
 
 | Technique | ID | Tactic | Detected |
 |---|---|---|---|
