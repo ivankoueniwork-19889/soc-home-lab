@@ -62,7 +62,7 @@ impacket-GetUserSPNs soc.lab/jsmith:Password123 -dc-ip 192.168.1.122 -request
 ![JSMITH Privilege Zones](../JSMITH_privileged_szones.png)
 
 ### BADMIN — Domain Admin Membership Chain
-![BADMIN Domain Admin](../BADMIN_SOC_LAB.png)
+![BADMIN](BADMIN_SOC_LAB.png)
 
 ### SVC-SQL — Kerberoastable Service Account
 ![SVC-SQL Kerberoastable](../SVC-SQL_SOC_LAB.png)
