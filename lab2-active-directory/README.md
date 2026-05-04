@@ -52,3 +52,20 @@ impacket-GetUserSPNs soc.lab/jsmith:Password123 -dc-ip 192.168.1.122 -request
 ```
 
 **Result:** TGS ticket hash returned for `svc-sql`:
+
+## Evidence — BloodHound AD Enumeration
+
+### JSMITH — Pathfinding to Domain Admins
+![JSMITH Pathfinding](../JSMITH_PATHFINDING_DOMAIN_ADMINS_SOC_LAB.png)
+
+### JSMITH — Privilege Zones
+![JSMITH Privilege Zones](../JSMITH_privileged_szones.png)
+
+### BADMIN — Domain Admin Membership Chain
+![BADMIN Domain Admin](../BADMIN_SOC_LAB.png)
+
+### SVC-SQL — Kerberoastable Service Account
+![SVC-SQL Kerberoastable](../SVC-SQL_SOC_LAB.png)
+
+### Hashcat — Kerberos TGS Hash Cracked
+![Hash Cracked](../Password_carcked_hashcat.png)
