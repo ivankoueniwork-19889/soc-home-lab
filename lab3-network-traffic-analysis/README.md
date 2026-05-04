@@ -107,13 +107,13 @@ sudo nmap -sS -p 1-1000 --min-rate 1000 192.168.1.123
 ## Evidence — Screenshots
 
 ### Suricata fast.log — Live Detections
-![Suricata Detections](../ET_SCAN__1-1000_--MIN.png)
+![Suricata Detections](https://raw.githubusercontent.com/ivankoueniwork-19889/soc-home-lab/main/ET_SCAN__1-1000_--MIN.png)
 
 ### Wazuh Dashboard — network-sensor Agent (170 events)
-![Wazuh Network Sensor](../wazuh_network_wazuh_feed.png)
+![Wazuh Network Sensor](https://raw.githubusercontent.com/ivankoueniwork-19889/soc-home-lab/main/wazuh_network_wazuh_feed.png)
 
 ### Kali Nmap Scan Against Network Sensor
-![Nmap Scan](../kali_nmap_scanon_network_sendor.png)
+![Nmap Scan](https://raw.githubusercontent.com/ivankoueniwork-19889/soc-home-lab/main/kali_nmap_scanon_network_sendor.png)
 
 ---
 
